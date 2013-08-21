@@ -223,7 +223,7 @@ typedef enum {
 }
 
 - (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
-    return YES;
+    return NO;
 }
 
 #pragma mark - Handle Panning Activity
